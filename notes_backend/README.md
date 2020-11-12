@@ -43,3 +43,7 @@ npx typeorm init --name MyProject --database postgres --docker
   }
 }
 ```
+
+## TS config info
+
+https://www.typescriptlang.org/tsconfig#lib
