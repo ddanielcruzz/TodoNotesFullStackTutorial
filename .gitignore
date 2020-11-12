@@ -1,0 +1,6 @@
+node_modules/
+*.sql
+.env
+.projectile
+.DS_Store
+.DS_Store?
