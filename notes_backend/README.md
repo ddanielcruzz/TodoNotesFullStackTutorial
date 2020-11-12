@@ -20,6 +20,8 @@ Steps to run this project:
 
 ```bash
 npx typeorm init --name ToDoNotes --database postgres
+npx typeorm init --name MyProject --database mysql --express
+npx typeorm init --name MyProject --database postgres --docker
 ```
 ## Dependencies use
 
