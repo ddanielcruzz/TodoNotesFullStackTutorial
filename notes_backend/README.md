@@ -4,7 +4,7 @@ DB Diagram: https://dbdiagram.io/d/5ee563929ea313663b3a810b
 
 ## Dependencies use
 
-```json
+```jsonc
 {
   "devDependencies": {
     "@types/node": "^14.14.7", // node types 
