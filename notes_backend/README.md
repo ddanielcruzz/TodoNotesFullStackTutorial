@@ -2,6 +2,25 @@
 
 DB Diagram: https://dbdiagram.io/d/5ee563929ea313663b3a810b
 
+## Setup test DB
+
+```bash
+docker run --rm -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_USER=pedrito -e POSTGRES_DB=todo_notes -v todo_notes:/var/lib/postgresql/data -p 5432:5432 postgres
+```
+
+## Automated Instructions
+
+Steps to run this project:
+
+1. Run `npm i` command
+2. Setup database settings inside `ormconfig.json` file
+3. Run `npm start` command
+
+## Creation with TypeORM cli
+
+```bash
+npx typeorm init --name ToDoNotes --database postgres
+```
 ## Dependencies use
 
 ```jsonc
