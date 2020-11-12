@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon -r dotenv/config src/index.ts"
+    "start": "nodemon -r dotenv/config src/app.ts"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,9 @@
   "dependencies": {
     "apollo-server-express": "^2.19.0",
     "express": "^4.17.1",
-    "graphql": "^15.4.0"
+    "graphql": "^15.4.0",
+    "pg": "^8.5.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.29"
   }
 }

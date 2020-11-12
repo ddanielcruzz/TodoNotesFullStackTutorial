@@ -5,6 +5,8 @@
     "rootDir": "./src",
     "outDir": "./build",
     "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "strict": true
   }
 }
